@@ -1,0 +1,81 @@
+<!HTML>
+
+<head>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>
+  </title>
+</head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="nav-link" href="index.html">Harvard CS
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"
+           href="toDoList.html" tabindex="-1" aria-disabled="true">
+          To Do List
+         </a>
+      </li>
+          <li class="nav-item">
+        <a class="nav-link"
+           class="nav-link disabled" href="rockPaperScissors.html" tabindex="-1" aria-disabled="true">
+          Rock, Paper and Scissors
+              </a>
+            
+      </li>
+    </ul>
+  </div>
+</nav>
+<body>
+   <!--- container-->
+  <div class="container">
+     <!--- title -->
+     <br><br>
+  <div class="row">
+    <br><br>
+  <h3>
+  seeing more clearly <br>
+  <small class="text-muted">cs50 project</small>
+</h3>
+      
+      <div class="row">
+       
+          
+          <button id="counter">Click Here!</button>
+      </div>
+
+      
+      </div>
+    </div>
+    <script>
+    let counter = 0; 
+        function count() {
+            count++;
+            document.querySelector('#counter').innerHTML = counter; 
+        if (counter % 10 === 0) { //taking the remainder 
+            alert('Counter is at ${counter}!')
+        }
+        }
+    
+    </script>
+      </body>
+
+<footer>
+
+
+</footer>
+    
+    

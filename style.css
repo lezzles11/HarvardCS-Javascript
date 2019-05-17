@@ -1,0 +1,49 @@
+
+
+/* At the top level of your code */
+@media screen and (min-width: 900px) {
+  article {
+    padding: 1rem 3rem;
+  }
+}
+
+/* Nested within another conditional at-rule */
+@supports (display: flex) {
+  @media screen and (min-width: 900px) {
+    article {
+      display: flex;
+    }
+  }
+}
+
+h3 {
+  color: blue; 
+}
+
+a {
+  color: lightgray; 
+}
+
+navbar a:hover {
+  color: darkred;
+  text-decoration: none;
+}
+
+.button {
+  background-color: $primary-color;
+  border: 1px solid $accent-color;
+  border-radius: 3px;
+}
+
+
+nav {
+    a {
+        color: lightgrey; 
+    }
+}
+
+
+#rPS {
+    max-width: 500px;
+  margin: auto;
+}
